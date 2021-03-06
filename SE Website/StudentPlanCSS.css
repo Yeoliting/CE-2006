@@ -4,8 +4,24 @@ body {
 	background-color: #fff;
 	font-family: 'Oxygen', sans-serif;
 }
+.navbar-header{
+width: 100%;
+padding: 0px;
+height: 100px;
+}
+/*edit this margin right to allign the drop down menu*/
+#logo{
+	margin-right: 39%;
+}
 
 
+.login{
+	position: relative;
+	float: right;
+width: 25px;
+height: 25px;
+
+}
 .navbar-custom {
 	position: relative;
 	background-color: white;
@@ -15,6 +31,21 @@ body {
 	width: 100%;
 }
 
+/*this is for the dropdown menu on courses*/
+.dropdown{
+display: inline-block;
+	position: relative;
+}
+#Coursedropdown{
+	margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding: 1px;
+  position: relative;
+}
+
+
 /*
 nav > div.container {
 	position: relative;
@@ -22,6 +53,8 @@ nav > div.container {
 	height: 100px;
 }
 */
+
+
 
 .navbar-brand.brand, .navbar-brand:hover, .navbar-brand:focus {
 	position: relative;
@@ -32,22 +65,28 @@ nav > div.container {
 	color: black;
 	text-decoration: none;
 	background-color: rgb(0,200,255);
-	height: 100%;
+	height: 100px;
 	text-align: center;
+	line-height: 100px;
+
 }
 
-nav button {
-	float: left;
-}
 
+/* this bottom is for search bubble*/
 #header-nav input[type=text] {
 	float: right;
 	padding: 6px;
 	border: 1px solid black;
-	margin-top: 8px;
-	margin-right: 16px;
+	margin-top: 50px;
+	margin-right: 8px;
 	font-size: 17px;
   }
+
+
+
+  nav button {
+	float: left;
+}
 
 .footer {
 	position: relative;
