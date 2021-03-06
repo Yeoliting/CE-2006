@@ -1,0 +1,15 @@
+body {
+	font-size: 16px;
+	color: solid black;
+	background-color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand{
+	color: black;
+}
+
+#sbar{
+	position: relative;
+	float: right;
+}
