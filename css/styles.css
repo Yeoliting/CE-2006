@@ -7,9 +7,34 @@ body {
 
 .navbar-brand{
 	color: black;
+	text-decoration: none;
 }
 
 #sbar{
 	position: relative;
 	float: right;
+}
+
+#login{
+	position: relative;
+	float: right;
+	text-decoration: none;
+}
+
+/*Large Devices Only*/
+@media (min-width: 1200px){
+	.col-xl-8{
+		position: relative;
+		float: right;
+	}
+}
+
+/*Medium Devices Only*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*Small Devices Only*/
+@media (min-width: 768px) and (max-width: 991px){
+
 }
