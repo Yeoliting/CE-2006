@@ -21,11 +21,20 @@ body {
 	text-decoration: none;
 }
 
+
+/*Media*/
 /*Large Devices Only*/
 @media (min-width: 1200px){
 	.col-xl-8{
 		position: relative;
 		float: right;
+		padding: 0;
+		margin: 0;
+	}
+
+	.col-xl-4{
+		padding: 0;
+		margin: 0;
 	}
 }
 
