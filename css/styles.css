@@ -10,6 +10,10 @@ body {
 	text-decoration: none;
 }
 
+.navbar-header{
+	border-bottom: 2px solid black;
+}
+
 #sbar{
 	position: relative;
 	float: right;
@@ -28,12 +32,10 @@ body {
 	.col-xl-8{
 		position: relative;
 		float: right;
-		padding: 0;
 		margin: 0;
 	}
 
 	.col-xl-4{
-		padding: 0;
 		margin: 0;
 	}
 }
