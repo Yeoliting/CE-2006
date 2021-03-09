@@ -28,11 +28,7 @@ body {
 	background-color: #878787;
 	border: 2px solid black;
 	color: white;
-	padding: 1em;
-	font-size: 1em;
-	margin: .3em;
-	text-decoration: none;
-	flex-grow: 1;
+	font-size: 150%;
 	text-align: center;
 }
 
@@ -48,22 +44,13 @@ body {
 	color: white;
 }
 
+#login:hover{
+	text-decoration: underline;
+}
+
 #logInImg{
 	width: 20px;
 }
 
-.button-area-line {
-	margin: 10px auto;
-	display: -webkit-box;   
-	display: -moz-box;  
-	display: -ms-flexbox; 
-	display: -webkit-flex; 
-	display: flex;
-	-webkit-flex-direction: row;
-	-moz-flex-direction: row;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-	max-width: 100%;
-}
+
 
