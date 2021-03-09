@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header>
@@ -42,7 +43,13 @@
 								</div>
 							</div>
 							<div class="col"> <!-- Search -->
-								<input type="text" id = "sbar" name="search-bar" placeholder="Search...">
+								<form class="d-flex">
+      								<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+      								<button class="btn btn-outline-success btn-search" type="submit">
+      									<!-- Search -->
+      									<i class="fa fa-search"></i>
+      								</button>
+    							</form>
 							</div>
 						</div><!-- Right Col 2nd row -->
 					</div><!-- Right Col -->

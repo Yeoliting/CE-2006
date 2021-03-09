@@ -32,9 +32,8 @@ body {
 	text-align: center;
 }
 
-#sbar{
-	position: relative;
-	float: right;
+.btn-search{
+	background-color: white;
 }
 
 #login{
