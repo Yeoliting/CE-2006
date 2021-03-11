@@ -3,19 +3,23 @@ body {
 	color: solid black;
 	background-color: #fff;
 	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-.container{
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 /*Header*/
+
 header > .container{
 	max-width: 100%;
 	padding-top: 0px;
+	padding-bottom: 10px;
 }
 
-.navbar-brand a{
+header :is(#head){
+	padding-top: 0px;
+}
+
+.navbar-brand :is(a){
 	color: white;
 	text-decoration: none;
 }
@@ -34,7 +38,7 @@ header > .container{
 	display: flex;
 }
 
-.special .btn{
+.special :is(.btn){
 	flex: 1;
 }
 
