@@ -6,7 +6,7 @@ $(document).ready(function(){
         $.getJSON('search/datastore/2020ngeeannintake.json',function(data){
             $.each(data,function(key,value){
               if(value.school.search(expression) !=-1||value.course_name.search(expression) !=-1){
-                $('#result').append('')
+                $('#result').append('course_description')
               }
 
             });
